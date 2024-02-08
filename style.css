@@ -1,6 +1,6 @@
 body{
   font-family: 'Poppins', sans-serif; 
-  margin: 0;
+  margin: 0; 
 }
 .orenge-name{
   color: orange;
@@ -41,12 +41,19 @@ p{
   border-radius: 10px;
 } 
 
+
+
+
+
+/* Dream big section  */
+
 .dream_big{
   display: flex;  
   padding-top: 60px; 
   background-image: url(picture/dream-bg.png); 
   background-repeat: no-repeat; 
-  background-position: right bottom;
+  background-position: right bottom; 
+  padding-bottom: 60px;
 } 
 
 .body_1{
@@ -61,3 +68,74 @@ p{
   padding-left: 68px; 
   padding-bottom: 3px;
 } 
+
+
+
+
+
+/* Experiences section */
+
+.exper{
+  display: flex; 
+} 
+
+.pro{
+  width: 50%;  
+  border-left: 7px solid rgb(201, 122, 85);
+  padding-left: 40px; 
+  margin-left: 80px; 
+  margin-right: 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(243, 232, 179), white);
+  box-shadow: 20px 25px 40px rgb(132, 120, 207);
+
+}
+.baby{
+  width: 50%;  
+  border-left: 7px solid blue;
+  padding-left: 40px;  
+  margin-left: 20px; 
+  margin-right: 80px; 
+  border-radius: 20px; 
+  background-image: linear-gradient(rgb(243, 232, 179), white); 
+  box-shadow: 20px 25px 40px rgb(132, 120, 207);
+  
+} 
+
+.ex_title{
+  padding-top: 40px; 
+  padding-left: 60px;  
+} 
+
+.read_more{
+  text-decoration: none; 
+  padding: 10px 30px; 
+  background-image: linear-gradient(rgb(83, 125, 215), rgb(187, 238, 222));
+  border: 1px solid black; 
+  border-radius: 10px; 
+  margin-bottom: 10px; 
+  text-align: right;
+  cursor: pointer; 
+  font-size: 16px;
+} 
+
+
+.experience{
+  background-image: url(picture/exp-bg.png); 
+  background-repeat: no-repeat; 
+  background-position: left center; 
+}
+
+.footer{
+  text-align: center; 
+  /* border-top: 1px solid black; 
+  border-bottom: 1px solid black;  */
+  margin-top: 100px; 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* background-image: linear-gradient(rgb(183, 186, 224), rgb(255, 255, 255)); */
+}
+
+.name{
+  color: brown;
+}
