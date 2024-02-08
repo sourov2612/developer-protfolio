@@ -39,4 +39,25 @@ p{
   background-image: linear-gradient(orange, tomato); 
   border: 1px solid black; 
   border-radius: 10px;
+} 
+
+.dream_big{
+  display: flex;  
+  padding-top: 60px; 
+  background-image: url(picture/dream-bg.png); 
+  background-repeat: no-repeat; 
+  background-position: right bottom;
+} 
+
+.body_1{
+  width: 50%;  
+  padding-left: 60px;  
+  padding-top: 80px;
 }
+
+.body_2 img{
+  width: 80%; 
+  padding-top: 35px; 
+  padding-left: 68px; 
+  padding-bottom: 3px;
+} 
