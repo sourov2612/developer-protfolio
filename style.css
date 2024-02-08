@@ -1,0 +1,42 @@
+body{
+  font-family: 'Poppins', sans-serif; 
+  margin: 0;
+}
+.orenge-name{
+  color: orange;
+} 
+h1{
+  font-size: 50px;  
+} 
+h3{
+  font-size: 30px;
+} 
+p{
+  font-size: 25px;
+}
+
+.top_banner{
+  display: flex; 
+  background-image: url(picture/top-banner.png); 
+  background-repeat: no-repeat;
+} 
+
+.half-width{
+  width: 50%;  
+  padding-left: 60px;  
+  padding-top: 20px;
+}
+
+.half-width img{
+  width: 60%; 
+  padding-top: 50px; 
+  padding-left: 30px;
+} 
+
+.hire_me{
+  text-decoration: none; 
+  padding: 10px 30px; 
+  background-image: linear-gradient(orange, tomato); 
+  border: 1px solid black; 
+  border-radius: 10px;
+}
